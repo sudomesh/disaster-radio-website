@@ -1,0 +1,110 @@
+{##
+ # Main template for all pages.
+ #
+ # Work in progress. This template adds the main menu and footer to each page.
+ # It also ensures that the CSS and JS files are loaded.
+ #
+ # Available variables:
+ # - html_title: Title for <html><head><title></title></head></html>.
+ # - html_description: Title for <html><head><<meta name="description"></head></html>.
+ # - html_keywords: Title for <html><head><meta name="keywords"></head></html>.
+ # - body: Rendered content for <html><body><main></main></body></html>.
+ # - page: Array containing the variables for the specific page that is rendered.
+ #}
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--><html class="" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ html_title }}</title>
+  {% if html_description %}
+    <meta name="description" content="{{ html_description }}">
+  {% endif %}
+  {% if html_keywords %}
+    <meta name="keywords" content="{{ html_keywords }}">
+  {% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link rel="stylesheet" href="/assets/stylesheets/gumby.css">
+  <link rel="stylesheet" href="/assets/stylesheets/custom.css">
+  <script src="/assets/javascript/libs/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+
+{# START: Top Navbar #}
+{% if main_menu %}
+  <nav id="main-nav">
+    <div class="row navbar">
+      <a href="/" title="Disaster Radio | Home"><strong>Disaster Radio</strong></a>
+      <a class="toggle" href="#" gumby-trigger=".navbar > ul"> <i class="icon-menu"></i> </a>
+      <ul id="menu-main" class="twelve columns">
+        <li><a href="/learn">Learn</a><ul>
+            <li><a href="/learn/firmware">Firmware</a></li>
+            <li><a href="/learn/hardware">Hardware</a></li>
+            <li><a href="/learn/software">Software</a></li>
+            <li><a href="/learn/user-guides">User Guides</a></li>
+        </ul></li>
+        <li><a href="/build">Build</a></li>
+        <li><a href="/connect">Connect</a></li>
+        <li><a href="https://github.com/sudomesh/disaster-radio/wiki">Docs</a></li>
+      </ul>
+    </div>
+  </nav>
+{# END: Top Navbar #}
+
+{{ body }}
+
+{# START: Site Footer #}
+<footer role="contentinfo" class="site-footer">
+  <div class="row footer-info">
+    <!-- START: Copyright Notice -->
+    <div class="footer-copyright" style="float:right;text-align:right;">
+      <p><!--[if lte IE 8]><span style="filter: FlipH; -ms-filter: " FlipH"; display: inline-block;"><![endif]--><span
+          style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); display: inline-block;">©</span>
+        <!--[if lte IE 8]></span><![endif]--> CopyLeft <a href="http://disaster.radio/">disaster.radio</a>, All Wrongs
+        Reversed,
+        <script type="text/javascript">var d = new Date();
+          var year = d.getFullYear();
+          document.write(year);</script>
+        .
+      </p>
+    </div>
+    <!-- /END: Copyright Notice -->
+  </div>
+</footer>
+{# END: Site Footer #}
+
+{# START: Footer Scripts #}
+<script>/*<![CDATA[*/
+  var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+  if (!oldieCheck) {
+    document.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
+  }
+  else {
+    document.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
+  }
+  /*]]>*/</script>
+<script>/*<![CDATA[*/
+  if (!window.jQuery) {
+    if (!oldieCheck) {
+      document.write('<script src="/assets/javascript/libs/jquery-2.0.2.min.js"><\/script>');
+    }
+    else {
+      document.write('<script src="/assets/javascript/libs/jquery-1.10.1.min.js"><\/script>');
+    }
+  }
+  /*]]>*/</script>
+<script src="/assets/javascript/libs/gumby.min.js"></script>
+<script src="/assets/javascript/plugins/waypoints.min.js"></script>
+<script src="/assets/javascript/plugins/placeholders.js"></script>
+<script src="/assets/javascript/theme.js"></script>
+{# END: Footer Scripts #}
+
+</body>
+</html>

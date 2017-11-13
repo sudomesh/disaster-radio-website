@@ -1,0 +1,5 @@
+---
+site_name: 'Disaster Radio'
+paths:
+  src: './src'
+  dest: './web'

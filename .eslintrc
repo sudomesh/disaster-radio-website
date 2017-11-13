@@ -1,0 +1,23 @@
+// rule reference: http://eslint.org/docs/rules
+// individual rule reference: http://eslint.org/docs/rules/NAME-OF-RULE
+{
+  "extends": "airbnb",
+  "globals": {},
+  "rules": {
+    "brace-style": ["error", "stroustrup"],
+    "consistent-return": [1],
+    "global-require": [1],
+    "max-nested-callbacks": [1, 3],
+    "no-param-reassign": [0],
+    "no-plusplus": [1, {"allowForLoopAfterthoughts": true}],
+    "no-prototype-builtins": [0],
+    "no-underscore-dangle": [0],
+    "no-unused-vars": [1],
+    "prefer-destructuring": [0],
+    "strict": [1],
+    "valid-jsdoc": [1, {
+      "prefer": {"returns": "return", "property": "prop"},
+      "requireReturn": false
+    }]
+  }
+}
