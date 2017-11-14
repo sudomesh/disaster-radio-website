@@ -1,6 +1,6 @@
 # Disaster Radio Website
 
-Builds the Disaster Radio using Gulp, Twig, etc.
+Builds the Disaster Radio website using Gulp, Twig, SASS, etc.
 
 ## LICENSE
 
