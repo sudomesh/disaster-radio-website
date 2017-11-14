@@ -1,5 +1,3 @@
-// Does not work right now. Is being refactored.
-
 const del = require('del');
 const files = require('./lib/files');
 const gulp = require('gulp');
