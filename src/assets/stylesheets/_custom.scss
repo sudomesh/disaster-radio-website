@@ -8,25 +8,26 @@ div#sub-page {
 }
 
 .navbar {
-  background: #20b24b;
-  max-width:none;
-  margin-bottom:0;
+  background: $branding-purple;
+  max-width: none;
+  margin-bottom: 0;
+  box-shadow: 1px 1px 6px #000;
 }
 
 .navbar ul {
-  max-width:1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 sixteen.colgrid .row .pull_eight.twelve.columns {
   margin-bottom: 0px;
-  background: #20b24b;
+  background: $branding-green;
 }
 
 .navbar ul li > a {
   color: white;
-  font-size:18px;
-  font-size:1.1rem;
+  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .gumby-no-touch .navbar ul li:hover > a,
@@ -49,6 +50,7 @@ sixteen.colgrid .row .pull_eight.twelve.columns {
   border-top: none;
   background-size: cover;
 }
+
 .header-image-credit {
   text-align: right;
   a {
@@ -63,8 +65,8 @@ sixteen.colgrid .row .pull_eight.twelve.columns {
 }
 
 .btn-docs {
-  background: #20b24b;
-  border-color: #20b24b;
+  background: $branding-green;
+  border-color: $branding-green;
 }
 
 .btn-donate {
@@ -81,7 +83,7 @@ sixteen.colgrid .row .pull_eight.twelve.columns {
     font-size: 45px;
   }
   .btn-docs {
-    border-color: #20b24b;
+    border-color: $branding-green;
   }
   .site-header {
   }
@@ -91,7 +93,7 @@ sixteen.colgrid .row .pull_eight.twelve.columns {
   .header-signup {
   }
   .header-intro-wrap .hs-disclaimer {
-    margin-top:50px;
+    margin-top: 50px;
   }
   .header-intro-wrap {
     padding-bottom: 50px;
@@ -104,6 +106,7 @@ sixteen.colgrid .row .pull_eight.twelve.columns {
   padding-top: 25px;
   height: 0;
 }
+
 .video-wrapper iframe {
   position: absolute;
   top: 0;
@@ -116,13 +119,16 @@ newsletter-signup-form {
   margin: 0;
   padding: 0;
 }
+
 #mc_embed_signup form {
   padding: 0 0 50px;
   text-align: center;
 }
+
 .mc-field-group {
   display: inline-block;
 }
+
 #mc_embed_signup input.email {
   background-color: #fff;
   border: 1px solid #abb0b2;
@@ -137,19 +143,22 @@ newsletter-signup-form {
   vertical-align: top;
   width: 350px;
 }
+
 #mc_embed_signup label {
   color: #fff;
   display: block;
-  font-family: dosisregular,sans-serif;
+  font-family: dosisregular, sans-serif;
   font-size: 45px;
   font-weight: 300;
   line-height: 1.15538em;
   padding-bottom: 10px;
   text-rendering: optimizelegibility;
 }
+
 #mc_embed_signup .clear {
   display: inline-block;
 }
+
 #mc_embed_signup .button {
   background-color: #aaa;
   border: medium none;
@@ -165,10 +174,12 @@ newsletter-signup-form {
   padding: 0 18px;
   transition: all 0.23s ease-in-out 0s;
 }
+
 #mc_embed_signup .button:hover {
   background-color: #777;
   cursor: pointer;
 }
+
 #mc_embed_signup div#mce-responses {
   clear: both;
   float: left;
@@ -178,6 +189,7 @@ newsletter-signup-form {
   top: -1.4em;
   width: 90%;
 }
+
 #mc_embed_signup div.response {
   float: left;
   font-weight: bold;
@@ -187,13 +199,16 @@ newsletter-signup-form {
   width: 80%;
   z-index: 1;
 }
+
 #mc_embed_signup #mce-error-response {
   display: none;
 }
+
 #mc_embed_signup #mce-success-response {
   color: #529214;
   display: none;
 }
+
 #mc_embed_signup label.error {
   display: block;
   float: none;
@@ -202,6 +217,7 @@ newsletter-signup-form {
   text-align: left;
   width: auto;
 }
+
 @media (max-width: 768px) {
   #mc_embed_signup label {
     font-size: 27px;

@@ -1,5 +1,5 @@
 ---
-site_name: 'Disaster Radio'
+site_name: 'disaster.radio'
 paths:
   src: './src'
   dest: './web'
