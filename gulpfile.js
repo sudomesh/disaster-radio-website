@@ -1,24 +1,31 @@
 // Does not work right now. Is being refactored.
 
+const del = require('del');
+const files = require('./lib/files');
 const gulp = require('gulp');
+const images = require('./lib/images');
+const init = require('./lib/init');
+const javascript = require('./lib/javascript');
 const markdown = require('./lib/markdown');
+const sass = require('./lib/sass');
 
-gulp.task('markdown', markdown);
+gulp.task('files', ['clean:files'], files);
+gulp.task('clean:files', () => del(['web/assets/files']));
 
-gulp.task('sass', () => gulp.src('./src/assets/stylesheets/**/*.css')
-  .pipe(gulp.dest('./web/assets/stylesheets')));
+gulp.task('images', ['clean:images'], images);
+gulp.task('clean:images', () => del(['web/assets/images']));
 
-gulp.task('js', () => gulp.src('./src/assets/javascript/**/*.js')
-  .pipe(gulp.dest('./web/assets/javascript')));
+gulp.task('init', init);
 
-gulp.task('images', () => gulp.src('./src/assets/images/**/*.*')
-  .pipe(gulp.dest('./web/assets/images')));
+gulp.task('js', ['clean:js'], javascript);
+gulp.task('clean:js', () => del(['web/assets/javascript']));
 
-gulp.task('files', () => gulp.src('./src/assets/files/**/*.*')
-  .pipe(gulp.dest('./web/assets/files')));
+gulp.task('markdown', ['clean:html'], markdown);
+gulp.task('clean:html', () => del(['./web/**/*', '!./web/assets', '!./web/assets/**/*']));
 
-gulp.task('init', () => {
-  // We will need this later.
-});
+gulp.task('sass', ['clean:css'], sass);
+gulp.task('clean:css', () => del(['./web/assets/stylesheets']));
+
+gulp.task('clean', ['clean:files', 'clean:images', 'clean:js', 'clean:html', 'clean:css']);
 
 gulp.task('default', ['markdown', 'sass', 'js', 'images', 'files']);
