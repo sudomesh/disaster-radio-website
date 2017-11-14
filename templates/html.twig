@@ -39,15 +39,20 @@
 {# START: Top Navbar #}
   <nav id="main-nav">
     <div class="row navbar">
-      <a href="/" title="Disaster Radio | Home"><strong>Disaster Radio</strong></a>
-      <a class="toggle" href="#" gumby-trigger=".navbar > ul"> <i class="icon-menu"></i> </a>
-      <ul id="menu-main" class="twelve columns">
-        <li><a href="/learn">Learn</a><ul>
+      <a class="toggle" href="#" gumby-trigger=".navbar > ul"> <i class="icon-menu"></i></a>
+      <h1 title="Disaster Radio | Home" class="four columns logo">
+        <a href="/">Disaster Radio</a>
+      </h1>
+      <ul id="menu-main" class="eight columns">
+        <li>
+          <a href="/learn">Learn</a>
+          <div class="dropdown"><ul>
             <li><a href="/learn/firmware">Firmware</a></li>
             <li><a href="/learn/hardware">Hardware</a></li>
             <li><a href="/learn/software">Software</a></li>
             <li><a href="/learn/user-guides">User Guides</a></li>
-        </ul></li>
+          </ul></div>
+        </li>
         <li><a href="/build">Build</a></li>
         <li><a href="/connect">Connect</a></li>
         <li><a href="https://github.com/sudomesh/disaster-radio/wiki">Docs</a></li>
