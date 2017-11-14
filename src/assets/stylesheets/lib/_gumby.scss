@@ -131,48 +131,50 @@ text-align: right;
 font-family: "entypo";
 font-style: normal;
 font-weight: 400;
-src: url(../fonts/icons/entypo.eot);
-src: url("../fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"), url("../fonts/icons/entypo.woff") format("woff"), url("../fonts/icons/entypo.ttf") format("truetype");
+src: url('https://peoplesopen.net/fonts/icons/entypo.eot');
+src: url("https://peoplesopen.net/fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"),
+url("https://peoplesopen.net/fonts/icons/entypo.woff") format("woff"),
+url("https://peoplesopen.net/fonts/icons/entypo.ttf") format("truetype");
 }
 /* Custom Font Faces */
 @font-face{
 font-family: 'anaheimregular';
 src: local('Anaheim');
-src: url('../fonts/anaheim-regular-webfont.eot'),
-url('../fonts/anaheim-regular-webfont.eot?#iefix') format('embedded-opentype'),
-url('../fonts/anaheim-regular-webfont.woff') format('woff'),
-url('../fonts/anaheim-regular-webfont.ttf') format('truetype'),
-url('../fonts/anaheim-regular-webfont.svg#anaheimregular') format('svg');
+src: url('https://peoplesopen.net/fonts/anaheim-regular-webfont.eot'),
+url('https://peoplesopen.net/fonts/anaheim-regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://peoplesopen.net/fonts/anaheim-regular-webfont.woff') format('woff'),
+url('https://peoplesopen.net/fonts/anaheim-regular-webfont.ttf') format('truetype'),
+url('https://peoplesopen.net/fonts/anaheim-regular-webfont.svg#anaheimregular') format('svg');
 font-weight: normal;
 font-style: normal;
 }
 @font-face {
 font-family: 'dosisbold';
-src: url('../fonts/dosis-bold-webfont.eot');
-src: url('../fonts/dosis-bold-webfont.eot?#iefix') format('embedded-opentype'),
-url('../fonts/dosis-bold-webfont.woff') format('woff'),
-url('../fonts/dosis-bold-webfont.ttf') format('truetype'),
-url('../fonts/dosis-bold-webfont.svg#dosisbold') format('svg');
+src: url('https://peoplesopen.net/fonts/dosis-bold-webfont.eot');
+src: url('https://peoplesopen.net/fonts/dosis-bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://peoplesopen.net/fonts/dosis-bold-webfont.woff') format('woff'),
+url('https://peoplesopen.net/fonts/dosis-bold-webfont.ttf') format('truetype'),
+url('https://peoplesopen.net/fonts/dosis-bold-webfont.svg#dosisbold') format('svg');
 font-weight: normal;
 font-style: normal;
 }
 @font-face {
 font-family: 'dosislight';
-src: url('../fonts/dosis-light-webfont.eot');
-src: url('../fonts/dosis-light-webfont.eot?#iefix') format('embedded-opentype'),
-url('../fonts/dosis-light-webfont.woff') format('woff'),
-url('../fonts/dosis-light-webfont.ttf') format('truetype'),
-url('../fonts/dosis-light-webfont.svg#dosislight') format('svg');
+src: url('https://peoplesopen.net/fonts/dosis-light-webfont.eot');
+src: url('https://peoplesopen.net/fonts/dosis-light-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://peoplesopen.net/fonts/dosis-light-webfont.woff') format('woff'),
+url('https://peoplesopen.net/fonts/dosis-light-webfont.ttf') format('truetype'),
+url('https://peoplesopen.net/fonts/dosis-light-webfont.svg#dosislight') format('svg');
 font-weight: normal;
 font-style: normal;
 }
 @font-face {
 font-family: 'dosisregular';
-src: url('../fonts/dosis-regular-webfont.eot');
-src: url('../fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
-url('../fonts/dosis-regular-webfont.woff') format('woff'),
-url('../fonts/dosis-regular-webfont.ttf') format('truetype'),
-url('../fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
+src: url('https://peoplesopen.net/fonts/dosis-regular-webfont.eot');
+src: url('https://peoplesopen.net/fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://peoplesopen.net/fonts/dosis-regular-webfont.woff') format('woff'),
+url('https://peoplesopen.net/fonts/dosis-regular-webfont.ttf') format('truetype'),
+url('https://peoplesopen.net/fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
 font-weight: normal;
 font-style: normal;
 }
@@ -8618,7 +8620,6 @@ display: inline-block;
 float: left;
 padding-left: 1.04167%;
 padding-right: 1.04167%;
-display: inline-block;
 text-align: center;
 }
 @media only screen and (min-width: 320px) {
