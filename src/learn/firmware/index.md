@@ -17,4 +17,4 @@ The ESP8266 acts as full web server that serves HTML web pages with CSS and Java
 ### More about:  
 [Hardware](/learn/hardware)  
 [Software](/learn/software)  
-[User Guides](/learn/userguides)    
+[User Guides](/learn/user-guides)    
