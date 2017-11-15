@@ -96,6 +96,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+
 @media only screen and (max-width: 767px) {
   body {
     -webkit-text-size-adjust: none;
@@ -4115,9 +4116,18 @@ Navigation (with dropdowns)
   max-width: 320px;
   height: 0;
   position: absolute;
-  background: #fafafa;
+  background: $branding-green;
   overflow: hidden;
   z-index: 999;
+
+  > ul li a {
+    color: $white;
+    border-color: $branding-green;
+    &:hover {
+      background: $branding-yellow;
+      color: $branding-purple;
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -4365,7 +4375,7 @@ Navigation (with dropdowns)
 .gumby-no-touch .navbar ul li:hover > a,
 .gumby-touch .navbar ul li.active > a {
   position: relative;
-  background: #868d92;
+  //background: #868d92;
   z-index: 1000;
 }
 
@@ -4401,17 +4411,17 @@ Navigation (with dropdowns)
 @media only screen and (max-width: 767px) {
   .gumby-no-touch .navbar ul li:hover .dropdown ul {
     overflow: auto;
-    background: #36393b;
+    //background: #36393b;
   }
   .gumby-no-touch .navbar ul li:hover .dropdown ul li {
-    border-bottom: #3e4043;
+    //border-bottom: #3e4043;
   }
   .gumby-no-touch .navbar ul li:hover .dropdown ul li a {
-    color: white;
-    border-bottom: 1px solid #313436;
+    //color: white;
+    //border-bottom: 1px solid #313436;
   }
   .gumby-no-touch .navbar ul li:hover .dropdown ul li a:hover {
-    color: #ca2470;
+    //color: #ca2470;
   }
 }
 
@@ -4434,16 +4444,16 @@ Navigation (with dropdowns)
   }
   .gumby-no-touch .navbar li .dropdown ul > li:hover .dropdown ul,
   .gumby-touch .navbar li .dropdown ul > li.active .dropdown ul {
-    background: #252728 !important;
+    //background: #252728 !important;
   }
 }
 
 .gumby-no-touch .navbar li .dropdown ul li a:hover {
-  background: #f2f2f2;
+  //background: #f2f2f2;
 }
 
 .gumby-touch .navbar a:hover {
-  color: white !important;
+  //color: white !important;
 }
 
 .subnav {
