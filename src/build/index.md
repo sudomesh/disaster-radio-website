@@ -20,7 +20,7 @@ Buck Converter: [3.3V step-down LM3671][buck], $5
 Enclosure: 3D printed, ~$5  
 Total: ~$40  
 
-#### Follow the [User Guides](/learn/userguides) to assemble the hardware and  flash the firmware
+#### Follow the [User Guides](/learn/user-guides) to assemble the hardware and  flash the firmware
 
 [esp]: https://wiki.wemos.cc/products:d1:d1_mini
 [rfm95]:https://www.seeedstudio.com/RFM95-Ultra-long-Range-Transceiver-Module%2FLoRa-Module%2Fsupport-868M-frequency-p-2807.html
