@@ -1,5 +1,6 @@
 const del = require('del');
 const files = require('./lib/files');
+const fonts = require('./lib/fonts');
 const gulp = require('gulp');
 const images = require('./lib/images');
 const init = require('./lib/init');
@@ -9,6 +10,9 @@ const sass = require('./lib/sass');
 
 gulp.task('files', ['clean:files'], files);
 gulp.task('clean:files', () => del(['web/assets/files']));
+
+gulp.task('fonts', ['clean:fonts'], fonts);
+gulp.task('clean:fonts', () => del(['web/assets/fonts']));
 
 gulp.task('images', ['clean:images'], images);
 gulp.task('clean:images', () => del(['web/assets/images']));
@@ -26,4 +30,4 @@ gulp.task('clean:css', () => del(['./web/assets/stylesheets']));
 
 gulp.task('clean', ['clean:files', 'clean:images', 'clean:js', 'clean:html', 'clean:css']);
 
-gulp.task('default', ['markdown', 'sass', 'js', 'images', 'files']);
+gulp.task('default', ['markdown', 'sass', 'js', 'images', 'files', 'fonts']);

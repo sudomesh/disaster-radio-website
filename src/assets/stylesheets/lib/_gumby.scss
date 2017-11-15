@@ -157,54 +157,54 @@ html, body {
   font-family: "entypo";
   font-style: normal;
   font-weight: 400;
-  src: url('https://peoplesopen.net/fonts/icons/entypo.eot');
-  src: url("https://peoplesopen.net/fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"),
-  url("https://peoplesopen.net/fonts/icons/entypo.woff") format("woff"),
-  url("https://peoplesopen.net/fonts/icons/entypo.ttf") format("truetype");
+  src: url('/assets/fonts/icons/entypo.eot');
+  src: url("/assets/fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"),
+  url("/assets/fonts/icons/entypo.woff") format("woff"),
+  url("/assets/fonts/icons/entypo.ttf") format("truetype");
 }
 
 /* Custom Font Faces */
 @font-face {
   font-family: 'anaheimregular';
   src: local('Anaheim');
-  src: url('https://peoplesopen.net/fonts/anaheim-regular-webfont.eot'),
-  url('https://peoplesopen.net/fonts/anaheim-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('https://peoplesopen.net/fonts/anaheim-regular-webfont.woff') format('woff'),
-  url('https://peoplesopen.net/fonts/anaheim-regular-webfont.ttf') format('truetype'),
-  url('https://peoplesopen.net/fonts/anaheim-regular-webfont.svg#anaheimregular') format('svg');
+  src: url('/assets/fonts/anaheim-regular-webfont.eot'),
+  url('/assets/fonts/anaheim-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/anaheim-regular-webfont.woff') format('woff'),
+  url('/assets/fonts/anaheim-regular-webfont.ttf') format('truetype'),
+  url('/assets/fonts/anaheim-regular-webfont.svg#anaheimregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'dosisbold';
-  src: url('https://peoplesopen.net/fonts/dosis-bold-webfont.eot');
-  src: url('https://peoplesopen.net/fonts/dosis-bold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('https://peoplesopen.net/fonts/dosis-bold-webfont.woff') format('woff'),
-  url('https://peoplesopen.net/fonts/dosis-bold-webfont.ttf') format('truetype'),
-  url('https://peoplesopen.net/fonts/dosis-bold-webfont.svg#dosisbold') format('svg');
+  src: url('/assets/fonts/dosis-bold-webfont.eot');
+  src: url('/assets/fonts/dosis-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/dosis-bold-webfont.woff') format('woff'),
+  url('/assets/fonts/dosis-bold-webfont.ttf') format('truetype'),
+  url('/assets/fonts/dosis-bold-webfont.svg#dosisbold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'dosislight';
-  src: url('https://peoplesopen.net/fonts/dosis-light-webfont.eot');
-  src: url('https://peoplesopen.net/fonts/dosis-light-webfont.eot?#iefix') format('embedded-opentype'),
-  url('https://peoplesopen.net/fonts/dosis-light-webfont.woff') format('woff'),
-  url('https://peoplesopen.net/fonts/dosis-light-webfont.ttf') format('truetype'),
-  url('https://peoplesopen.net/fonts/dosis-light-webfont.svg#dosislight') format('svg');
+  src: url('/assets/fonts/dosis-light-webfont.eot');
+  src: url('/assets/fonts/dosis-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/dosis-light-webfont.woff') format('woff'),
+  url('/assets/fonts/dosis-light-webfont.ttf') format('truetype'),
+  url('/assets/fonts/dosis-light-webfont.svg#dosislight') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'dosisregular';
-  src: url('https://peoplesopen.net/fonts/dosis-regular-webfont.eot');
-  src: url('https://peoplesopen.net/fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('https://peoplesopen.net/fonts/dosis-regular-webfont.woff') format('woff'),
-  url('https://peoplesopen.net/fonts/dosis-regular-webfont.ttf') format('truetype'),
-  url('https://peoplesopen.net/fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
+  src: url('/assets/fonts/dosis-regular-webfont.eot');
+  src: url('/assets/fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/dosis-regular-webfont.woff') format('woff'),
+  url('/assets/fonts/dosis-regular-webfont.ttf') format('truetype'),
+  url('/assets/fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
