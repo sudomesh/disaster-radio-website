@@ -236,11 +236,11 @@ html, body {
 @font-face {
     font-family: 'Ubuntu';
     src: url('fonts/ubuntu-regular-italic-webfont.eot');
-    src: url('fonts/ubuntu-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/ubuntu-regular-italic-webfont.woff2') format('woff2'),
-         url('fonts/ubuntu-regular-italic-webfont.woff') format('woff'),
-         url('fonts/ubuntu-regular-italic-webfont.ttf') format('truetype'),
-         url('fonts/ubuntu-regular-italic-webfont.svg#ubuntuitalic') format('svg');
+    src: url('/assets/fonts/ubuntu-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/ubuntu-regular-italic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/ubuntu-regular-italic-webfont.woff') format('woff'),
+         url('/assets/fonts/ubuntu-regular-italic-webfont.ttf') format('truetype'),
+         url('/assets/fonts/ubuntu-regular-italic-webfont.svg#ubuntuitalic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
