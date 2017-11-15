@@ -209,8 +209,44 @@ html, body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('/assets/fonts/ubuntu-medium-webfont.eot');
+  src: url('/assets/fonts/ubuntu-medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/ubuntu-medium-webfont.woff2') format('woff2'),
+  url('/assets/fonts/ubuntu-medium-webfont.woff') format('woff'),
+  url('/assets/fonts/ubuntu-medium-webfont.ttf') format('truetype'),
+  url('/assets/fonts/ubuntu-medium-webfont.svg#ubuntumedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/assets/fonts/ubuntu-medium-italic-webfont.eot');
+    src: url('/assets/fonts/ubuntu-medium-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/ubuntu-medium-italic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/ubuntu-medium-italic-webfont.woff') format('woff'),
+         url('/assets/fonts/ubuntu-medium-italic-webfont.ttf') format('truetype'),
+         url('/assets/fonts/ubuntu-medium-italic-webfont.svg#ubuntumedium_italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/ubuntu-regular-italic-webfont.eot');
+    src: url('fonts/ubuntu-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu-regular-italic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-regular-italic-webfont.woff') format('woff'),
+         url('fonts/ubuntu-regular-italic-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu-regular-italic-webfont.svg#ubuntuitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: dosisregular, sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-weight: 100;
   color: #444444;
   text-rendering: optimizeLegibility;
