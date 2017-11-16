@@ -91,7 +91,7 @@ body {
   background: white;
   font-family: Ubuntu, sans-serif;
   font-weight: 400;
-  color: #555555;
+  color: #222;
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
@@ -333,9 +333,10 @@ Links & Paragraph styles
 p {
   font-family: anaheimregular, sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  font-size: 1rem;
-  margin-bottom: 13px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
   line-height: 1.625em;
 }
 
