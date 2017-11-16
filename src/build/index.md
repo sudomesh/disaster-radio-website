@@ -11,7 +11,7 @@ The following materials are needed to build your own disaster.radio device:
 
 ESP8266: [WeMos D1 mini development board][esp], $2.50  
 LoRa Transceiver: [HackRF RFM95W][rfm95] or [Dorji DRF1276G][drf12], $6-7  
-Custom printed circuit board(PCB): [~180x120, 1 layer, 100ct][pcb], $6.50  
+Custom printed circuit board(PCB): [~180x120, 2 layer, 10ct][pcb], $5.00  
 Antenna: [900MHz Directional Antenna 5dBi][ant], $3  
 Solar Panel: [6V, 3W, 120mAHL][solar1], $5-6  
 Lithium Ion Battery: [3.7V 3600mAh][batt], $4  

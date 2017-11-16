@@ -1,6 +1,6 @@
 ---
-title: Learn About Disaster Radio Software
-description: 'Disaster Radio user guides.'
+title: Learn to build your own 
+description: 'disaster.radio user guides.'
 ---
 
 ## Assemble Hardware  
@@ -27,4 +27,9 @@ These instructions assume a Linux user environment:
         screen /dev/ttyUSB0 115200 
         minicom -D /dev/ttyUSB0 -b 115200
 6. Test web interface by connecting to the "disaster.radio < MAC address >" wifi network and navigating to 192.168.4.1 
+
+### More about:  
+[Hardware](/learn/hardware)  
+[Software](/learn/software)  
+[User Guides](/learn/user-guides)    
 

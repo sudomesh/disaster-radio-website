@@ -1,11 +1,17 @@
 ---
-title: Learn About Disaster Radio Software
-description: 'Learn more about Disaster Radio software.'
+title: Learn about the software
+description: 'Learn more about disaster.radio software.'
 ---
-**_Needs content about software/apps._**
 
-## Applications
+Software development will be heavily dependent on a Secure Scuttlebutt like protocol. disaster.radio will launch with three software applications:
 
-### Chat
+## Chat
 
-### Maps
+## Maps
+
+## App Store
+
+### More about:
+[Firmware](/learn/firmware)  
+[Hardware](/learn/hardware)  
+[User Guides](/learn/user-guides)  
