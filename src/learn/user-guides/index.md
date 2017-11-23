@@ -28,7 +28,7 @@ These instructions assume a Linux user environment:
         minicom -D /dev/ttyUSB0 -b 115200
 6. Test web interface by connecting to the "disaster.radio < MAC address >" wifi network and navigating to 192.168.4.1 
 
-### More about:  
+#### More about:  
 [Firmware](/learn/firmware)    
 [Hardware](/learn/hardware)  
 [Software](/learn/software)  
