@@ -1,3 +1,4 @@
+const webserver = require('gulp-webserver');
 const del = require('del');
 const files = require('./lib/files');
 const fonts = require('./lib/fonts');
@@ -31,3 +32,12 @@ gulp.task('clean:css', () => del(['./web/assets/stylesheets']));
 gulp.task('clean', ['clean:files', 'clean:images', 'clean:js', 'clean:html', 'clean:css']);
 
 gulp.task('default', ['markdown', 'sass', 'js', 'images', 'files', 'fonts']);
+
+gulp.task('webserver', function() {
+  gulp.src('./web')
+    .pipe(webserver({
+      livereload: true,
+      directoryListing: false,
+      open: true
+    }));
+});
