@@ -13,6 +13,7 @@ To rebase the website log into the host server and,
 ```
 cd /var/www/public/disaster.radio/disaster-radio-website
 git pull --rebase
+npm install
 gulp
 ```
 
