@@ -6,7 +6,7 @@ description: Project updates.
 ## New boards have arrived!
 _April 24th 2018_
 
-<video id="video" class="video-js vjs-default-skin" controls preload="auto" width="864" height="480" poster="/assets/images/april_update/disaster.radio.fitz.v3board.jpg" data-setup="{}">
+<video id="video" class="video-js vjs-fluid vjs-default-skin" controls preload="auto" width="864" height="480" poster="/assets/images/april_update/disaster.radio.fitz.v3board.jpg" data-setup="{}">
   <source src="//disaster.radio/videos/fitz_april_update_1080p.mp4" type="video/mp4" label="1080p" />
   <source src="//disaster.radio/videos/fitz_april_update_1080p.webm" type="video/webm" label="1080p" />
   <source src="//disaster.radio/videos/fitz_april_update_720p.mp4" type="video/mp4" label="720p" />
