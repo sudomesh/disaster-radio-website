@@ -152,3 +152,10 @@ img.blog {
   font-style: italic;
   font-size: 0.8rem;
 }
+
+.video-js .vjs-big-play-button {
+  height: 1.5em;
+  left: calc(50% - 1.5em);
+  top: calc(50% - .75em);
+  width: 3em;
+}
