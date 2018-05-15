@@ -3,6 +3,42 @@ title: Updates
 description: Project updates.
 ---
 
+## 3D printed enclosure!
+_May 15th 2018_
+
+<video id="may_15_video" class="video-js vjs-fluid vjs-default-skin" controls preload="auto" width="864" height="480" poster="/assets/images/may_15_poster.png" data-setup="{}">
+  <source src="//disaster.radio/videos/marc_explain.480p.webm" type="video/webm" label="480p" />
+  <source src="//disaster.radio/videos/marc_explain.720p.webm" type="video/webm" label="720p" />
+  <source src="//disaster.radio/videos/marc_explain.480p.mp4" type="video/mp4" label="480p" />
+  <source src="//disaster.radio/videos/marc_explain.720p.mp4" type="video/mp4" label="720p" />
+
+</video>
+
+Nic just finished 3D printing the first batch of the enclosures for the new PCB! These are designed to print with no support material and be easy to not only 3D print but also injection mold. They use a rubber gasket to seal against the PCB and the back of the PCB is then connected to the solar panel.
+
+<div class="captioned">
+  <img class="blog" src="/assets/images/nic_enclosure.jpg" width="480" />
+  <div class="caption">
+    <p>Pirate Nic demonstrating his enclosure prototype</i>
+  </div>
+</div>
+
+While the current mounting system uses a simple hose clamp, Nic has also been working on an attachment system that will allow for a variety of attachment options such as screw-mounting or suction cup mounting for the inside of windows.
+
+### Video download links
+
+WebM VP9:
+
+* [720p](//disaster.radio/videos/marc_explain.720p.webm) 
+* [480p](//disaster.radio/videos/marc_explain.480p.webm) 
+
+MP4 H.264:
+
+* [720p](//disaster.radio/videos/marc_explain.720p.mp4)
+* [480p](//disaster.radio/videos/marc_explain.480p.mp4)
+
+<hr/>
+
 ## New boards have arrived!
 _April 24th 2018_
 
@@ -14,20 +50,6 @@ _April 24th 2018_
   <source src="//disaster.radio/videos/fitz_april_update_480p.mp4" type="video/mp4" label="480p" />
   <source src="//disaster.radio/videos/fitz_april_update_480p.webm" type="video/webm" label="480p" />
 </video>
-
-<script>
-  // disable google analytics for video.js
-  window.HELP_IMPROVE_VIDEOJS = false;
-</script>
-<script src="https://vjs.zencdn.net/6.6.3/video.js"></script>
-<script src="/assets/javascript/videojs-resolution-switcher.js"></script>
-<script>
-
-  videojs('video').videoJsResolutionSwitcher({
-    default: '480p',
-    dynamicLabel: true
-  });
-</script>
 
 We're currently working on two disaster.radio boards:
 
@@ -147,3 +169,24 @@ MP4 H.264:
 * [1080p](//disaster.radio/videos/fitz_april_update_1080p.mp4)
 * [720p](//disaster.radio/videos/fitz_april_update_720p.mp4)
 * [480p](//disaster.radio/videos/fitz_april_update_480p.mp4)
+
+
+<script>
+  // disable google analytics for video.js
+  window.HELP_IMPROVE_VIDEOJS = false;
+</script>
+<script src="https://vjs.zencdn.net/6.6.3/video.js"></script>
+<script src="/assets/javascript/videojs-resolution-switcher.js"></script>
+<script>
+
+  videojs('video').videoJsResolutionSwitcher({
+    default: '480p',
+    dynamicLabel: true
+  });
+
+  videojs('may_15_video').videoJsResolutionSwitcher({
+    default: '480p',
+    dynamicLabel: true
+  });
+
+</script>
