@@ -25,6 +25,22 @@ Nic just finished 3D printing the first batch of the enclosures for the new PCB!
 
 While the current mounting system uses a simple hose clamp, Nic has also been working on an attachment system that will allow for a variety of attachment options such as screw-mounting or suction cup mounting for the inside of windows.
 
+<div class="captioned">
+  <img class="blog" src="/assets/images/enclosure_with_solar_top.jpg" width="480" />
+  <div class="caption">
+    <p>The enclosure with the solar panel attached.</i>
+  </div>
+</div>
+
+The solar panel is attached using springs soldered to the copper pads of the PCB and plastic brackets pressing it down onto the springs.
+
+<div class="captioned">
+  <img class="blog" src="/assets/images/enclosure_with_solar_side.jpg" width="480" />
+  <div class="caption">
+    <p>Side view of solar panel attachment system.</i>
+  </div>
+</div>
+
 ### Video download links
 
 WebM VP9:
