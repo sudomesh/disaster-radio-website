@@ -3,6 +3,13 @@ title: Updates
 description: Project updates.
 ---
 
+## Working solar prototypes!
+_June 22nd 2018_
+
+<iframe width="864" height="480" src="https://www.youtube.com/embed/0dosXMXaU94" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Here's a rought little video demo showing both the fully solar + battery powered node prototype talking to the portable node prototype. The basic functionality is now working! There's still much testing and improvement to be done before mass-production but this is a major projection milestone. Onwards and upwards!
+
 ## 3D printed enclosure!
 _May 15th 2018_
 
