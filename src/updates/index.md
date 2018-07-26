@@ -3,6 +3,38 @@ title: Updates
 description: Project updates.
 ---
 
+## Finalists and manufacturing for dWeb summit!
+_July 25th 2018_
+
+First, it is our great pleasure to announce that we've been selected as one of the seven finalists in the [Mozilla/NSF Wireless Innovations Challenge](https://blog.mozilla.org/blog/2018/07/19/a-science-fair-with-1-6-million-in-prizes/). Four of the seven will take home one of the following prizes:
+
+* $400,000
+* $250,000
+* $100,000
+* $50,000
+
+The final stage in the competition will be a 5 minute live-demo on August 14th. We will be posting a link to the live-stream here!
+
+Our other piece of news is that a generous benefactor and co-organizer of the [Decentralized Web Summit](https://decentralizedweb.net/) donated funds to allow us to build ~50 nodes that will be raffled off to interested developers at the summit! Hopefully this will help get more developers and imagining new ways to use long distance low bandwidth networks.
+
+We were given a tight deadline to produce these boards so last night we had a soldering party and the disaster.radio community came together for several hours or soldering and testing. 
+
+<div class="captioned">
+  <img class="blog" src="/assets/images/solder_party_up_high.jpg" width="854" />
+  <div class="caption">
+    <p>The extended disaster.radio community gathered around the main hacking tables in the sudo room hackerspace.</i>
+  </div>
+</div>
+
+<div class="captioned">
+  <img class="blog" src="/assets/images/solder_party_down_low.jpg" width="854" />
+  <div class="caption">
+    <p>Everyone is busy soldering the RFM95 modules onto the dev kits.</i>
+  </div>
+</div>
+
+Current status is that we have 32 fully tested and working radio boards with several more partially completed. We'll have a small soldering party this coming Monday evening to finish the last 18 boards.
+
 ## Working solar prototypes!
 _June 22nd 2018_
 
