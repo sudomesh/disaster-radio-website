@@ -3,9 +3,11 @@ title: Build your own
 description: Build the disaster.radio hardware.
 ---
 
-The disaster.radio hardware is still under development. Our first prototypes had a few bugs and we're currently working on a fixed design. It is entirely feasible to build your own disaster.radio. Most parts are readily available via online retailers.
+The disaster.radio hardware is still under development. 
 
-The [custom circuit board layout/schematics](https://github.com/sudomesh/disaster-radio/tree/master/hardware/lora_wemos_hat) and [enclosure design](https://github.com/sudomesh/disaster-radio/blob/master/enclosure/disaster_radio_enclosure.stl) are available on our github.
+Our first prototypes had a few bugs and we're currently working on a fixed design. It is entirely feasible to build your own disaster.radio. Most parts are readily available via online retailers.
+
+The source code, custom circuit board layout schematics and enclosure design is all available [on our github repo](https://github.com/sudomesh/disaster-radio).
 
 ## Procure Materials  
 
