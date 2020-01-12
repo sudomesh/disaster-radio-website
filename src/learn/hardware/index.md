@@ -16,6 +16,8 @@ Powered by a 6V, 3W solar panel and a 3600mAh battery, disaster.radio nodes are 
 ### Board
 We are in the process of designing a custom PCB prototype, the [schematics and layout](https://github.com/sudomesh/disaster-radio/tree/master/hardware) are open source and could be re-printed by anyone with the necessary knowledge and means.
 
+You can buy a premade and preflashed board from Aliexpress: [LILYGO® TTGO Disaster-Radio](https://www.aliexpress.com/item/4000396836096.html)
+
 ### Enclosure
 The enclosure for the disaster.radio is designed to be vaccum-formed or 3d printed. The STL can be found on our [github](https://github.com/sudomesh/disaster-radio/blob/master/enclosure/disaster_radio_enclosure.stl). 
 

@@ -11,10 +11,13 @@ The routing protocol used for the disaster.radio network is currently being deve
  disaster.radio will launch with three software applications:  
 
 ### Chat
+Accessible by typing in the nodes ip address. See more about this under [User Guides](/learn/user-guides)
 
 ### Maps
+[Feature in progress](https://github.com/sudomesh/disaster-radio/issues/10)
 
 ### App Store
+[TODO]()
 
 #### More about:
 [Firmware](/learn/firmware)  
