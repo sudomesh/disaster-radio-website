@@ -9,7 +9,6 @@ description: 'Get involved in the disaster.radio project.'
 <i class="fa fa-code" aria-hidden="true"></i> Contribute to our [code](https://github.com/sudomesh/disaster-radio)  
 
 ## Support
-<i class="fa fa-comments-o" aria-hidden="true"></i> Chat with us through [IRC](http://webchat.freenode.net?channels=%23disasterradio&uio=d4) on the freenode channel **#disaster.radio**  
 <img src="../assets/images/scuttlebot-bw-sm.png"> Find us on [Secure Scuttlebot (SSB)](https://github.com/ssbc) in the **#disasterradio** channel  
 <i class="fa fa-bug" aria-hidden="true"></i> Submit [bug reports](https://github.com/sudomesh/disaster-radio/issues) or [pull requests](https://github.com/sudomesh/disaster-radio/pulls)  
 _Coming soon: **support forum**_  
