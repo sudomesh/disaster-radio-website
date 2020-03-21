@@ -3,6 +3,29 @@ title: Updates
 description: Project updates.
 ---
 
+## Latest developments
+_March 21st 2020_
+
+Hey everybody!
+
+It's been quite a while since we updated folks on our progress, but we wanted to let the world know we are still working hard on an open source platform for building disaster recovery networks.
+
+Since we last posted there have been a lot of happenings,
+* We competed in the Internet Society's 2018 Chapterathon and received a $2000 grant to develop [our routing protocol](https://github.com/sudomesh/disaster-radio/wiki/Protocol).
+* We wrote a [network simulator](https://github.com/sudomesh/disaster-radio-simulator) to test our routing protocol at scale. 
+* We are now developing firmware for the ESP32 and are close to releasing version 1.0.0.
+* You can order [TTGO v2 dev boards](https://www.aliexpress.com/item/4000396836096.html) pre-flashed with our firmware.
+* We've started working on a new iteration of our custom board that would include an ESP32 and two LoRa antennas.
+* We've had lots of new contributors, who have brought lots of great ideas. Check out the recent [PRs](https://github.com/sudomesh/disaster-radio/pulls?q=is%3Apr+is%3Aclosed) and [issues](https://github.com/sudomesh/disaster-radio/issues).
+* One of those new contributors wrote a [BLE Android Application](https://github.com/beegee-tokyo/disaster-radio-android) that connects to the disaster radio.
+* We made the front page of [hacker news](https://news.ycombinator.com/item?id=21750585) on Dec. 11th, 2019.
+* We had an article written about us on [Hackaday](https://hackaday.com/?s=disaster.radio).
+
+We will continue to post updates as we build and test the new boards and the latest firmware.
+
+Stay safe, stay prepared, and stay [connected](/connect)!
+
+
 ## Finalists and manufacturing for dWeb summit!
 _July 25th 2018_
 
