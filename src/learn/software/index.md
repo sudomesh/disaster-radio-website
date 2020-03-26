@@ -2,19 +2,20 @@
 title: Learn about the software
 description: 'Learn more about disaster.radio software.'
 ---
-Software development will be heavily dependent on a Secure Scuttlebutt like protocol.  
 
-## Routing
-The routing protocol used for the disaster.radio network is currently being developed. We have a network simulator written in Python. [Try it out](https://jemucino.github.io/disaster-radio-netsim/) and see how it could be [improved](https://github.com/sudomesh/disaster-radio-netsim).  
-
-## Applications
- disaster.radio will launch with three software applications:  
+The software for disaster radio serves as an interface between the end-user and the LoRa radio. Currently, we have three end-user applications in development,
 
 ### Chat
+A chat application served by disaster radio over WiFi for sending and receiving messages with neighboring nodes. Find the source code [here](https://github.com/sudomesh/disaster-radio/tree/master/web).
 
 ### Maps
+A mapping application served by disaster radio over WiFi for dropping pins and sharing locations on a map of local area. Find the source code [here](https://github.com/sudomesh/disaster-radio-map).
 
-### App Store
+### BLE Android App
+An Android appliation that conencts to disaster radio over Bluetooth Low Energy (BLE) and provides similar functions to Chat and Maps apps. Find the source code [here](https://github.com/beegee-tokyo/disaster-radio-android) and download the application from the [Play Store](https://play.google.com/store/apps/details?id=tk.giesecke.disaster_radio&hl=en_US). 
+
+## Routing
+The disaster.radio network uses the custom-designed LoRaLayer2 routing protocol. For more information on the details of this protocol, vist our [wiki](https://github.com/sudomesh/disaster-radio/wiki/Protocol) or read the source code [here](https://github.com/sudomesh/LoRaLayer2)
 
 #### More about:
 [Firmware](/learn/firmware)  
