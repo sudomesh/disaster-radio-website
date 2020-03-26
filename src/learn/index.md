@@ -9,4 +9,5 @@ Designed to be open, distributed, and decentralized, disaster.radio is currently
 [Firmware](/learn/firmware)  
 [Hardware](/learn/hardware)  
 [Software](/learn/software)  
+[Routing](/learn/routing)  
 [User guides](/learn/user-guides)  

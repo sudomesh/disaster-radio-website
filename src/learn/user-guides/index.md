@@ -9,4 +9,5 @@ Our hardware, firmware, and software are still in development. The best place to
 [Firmware](/learn/firmware)    
 [Hardware](/learn/hardware)  
 [Software](/learn/software)  
+[Routing](/learn/routing)  
 

@@ -33,4 +33,5 @@ It is possible to build a disaster radio node from parts right now. Take a look 
 #### More about:  
 [Firmware](/learn/firmware)  
 [Software](/learn/software)   
+[Routing](/learn/routing)  
 [User Guides](/learn/user-guides)  

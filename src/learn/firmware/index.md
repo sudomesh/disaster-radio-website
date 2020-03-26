@@ -20,4 +20,5 @@ The ESP32 can operate in a low energy mode by turning off its WiFi antenna and u
 #### More about:  
 [Hardware](/learn/hardware)  
 [Software](/learn/software)  
+[Routing](/learn/routing)  
 [User Guides](/learn/user-guides)    
