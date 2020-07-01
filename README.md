@@ -4,6 +4,8 @@ Builds the Disaster Radio website using Gulp, Twig, SASS, etc.
 
 # Usage
 
+Node.js v8.9.1 is required, it is recommended that [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) is used to manage your node.js versions.
+
 ```
 npm install # install dependencies
 npm run build # build everything

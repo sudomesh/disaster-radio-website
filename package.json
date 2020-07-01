@@ -16,6 +16,7 @@
     "eslint-plugin-react": "^7.11.1",
     "gulp-webserver": "^0.9.1",
     "tape": "^4.9.1",
+    "video.js": "^7.8.3",
     "videojs-resolution-switcher": "^0.4.2"
   },
   "dependencies": {
