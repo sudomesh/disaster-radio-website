@@ -27,5 +27,5 @@ Total: ~$63
 [solar1]: https://www.aliexpress.com/item/4000031921317.html?spm=0.8937489.0.0.10992e0eaAUWs6
 [batt]: https://www.aliexpress.com/item/32693860069.html?spm=0.8937489.0.0.10992e0eaAUWs6
 [battcase]: https://www.aliexpress.com/item/32900464090.html?spm=0.8937489.0.0.10992e0eaAUWs6
-[case]: https://www.aliexpress.com/item/4000429348282.html?spm=0.8937489.0.0.10992e0eaAUWs6
+[case]: https://www.aliexpress.com/item/4000452268197.html?spm=0.8937489.0.0.10992e0eaAUWs6
 [wire]: https://www.aliexpress.com/item/33053500652.html?spm=0.8937489.0.0.10992e0eaAUWs6
