@@ -27,7 +27,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^3.2.1",
     "js-yaml": "^3.13.1",
-    "marked": "^0.3.19",
+    "marked": "^4.0.10",
     "through2": "^2.0.3",
     "twig": "^1.12.0"
   }
